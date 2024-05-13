@@ -19,7 +19,10 @@ if hist_button: #se o botão for clicado
 dis_button = st.button('Criar Gráfico de Dispesão')
 if dis_button: #se o botão for clicado
     st.write('Criando gráfico de dispersão para o conjunto de dados de anúncio de vendas de caros') #escreva
-
     #criar gráfico de dispersão
-    gra = px.scatter(car_data, x="odometer")
-    st.plotly_chart(gra)
+    fig_scatter = px.scatter(car_data, x="odometer", y="price")  # Especificar ambos os eixos x e y
+    st.plotly_chart(fig_scatter, use_container_width=True)
+
+# Mensagem se nenhum botão for clicado
+if not hist_button and not dis_button:
+    st.write('Clique nos botões acima para gerar visualizações.')
