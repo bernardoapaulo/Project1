@@ -9,6 +9,7 @@ Descrição do Projeto: [O projeto foi criado para desenvolver um potão que cri
 
 1. [Clique no botão]
 2. [O gráfico é criado.]
+3. [Repositório GitHub: https://github.com/bernardoapaulo/Project1.git]
 
 ## Autor
 
