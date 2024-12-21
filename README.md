@@ -3,7 +3,7 @@ Projeto - 1 TripleTen
 
 # Botão de Análise
 
-Descrição do Projeto: [O projeto foi criado para desenvolver um potão que cria um grafico de análise de dados, assim que o botão for clicado.]
+Descrição do Projeto: [O projeto foi criado para desenvolver um botão que cria um grafico de análise de dados, assim que o botão for clicado.]
 
 ## Links
 1. [Repositório GitHub: https://github.com/bernardoapaulo/Project1.git]
